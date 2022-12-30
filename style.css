@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    padding: 1rem;
+    font-size: 15px;
+}
+
+.main-container{
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img{
+    margin-bottom: 1.5rem;
+    max-width: 80px;
+}
+
+h1{
+    font-family:'Big Shoulders Display', sans-serif;
+    color: hsl(0, 0%, 95%);
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+}
+
+p{
+    font-family:'Lexend Deca',sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 1.5rem;
+}
+
+button{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    width: 50%;
+    height: 40px;
+    border: none; 
+    font-family:'Lexend Deca',sans-serif;
+}
+
+.yellow-container{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2rem;
+}
+.yellow-container button{
+    color: hsl(31, 77%, 52%);
+}
+
+.blue-container{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2rem;
+}
+.blue-container button{
+    color: hsl(184, 100%, 22%);
+}
+
+.green-container{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2rem;
+}
+.green-container button{
+    color: hsl(179, 100%, 13%);
+}
+
+
+@media (min-width: 700px){
+    body{
+        display: flex;
+        min-height: 100vh;
+        padding: 0;
+    }
+
+    .main-container{
+        display: flex;  
+        max-width: 1000px;
+        height: 500px;
+    }
+
+    img{
+        margin-bottom: 2rem;
+    }
+
+    h1{
+        font-size: 30px;
+        margin-bottom: 2rem;
+    }
+
+    p{
+        margin-bottom: 4rem;
+    }
+
+    .yellow-container{
+        display: flex;
+        flex-direction: column;
+        padding: 4rem;
+    }
+
+    .blue-container{
+        display: flex;
+        flex-direction: column;
+        padding: 4rem;
+    }
+
+    .green-container{
+        display: flex;
+        flex-direction: column;
+        padding: 4rem;
+    }   
+}
